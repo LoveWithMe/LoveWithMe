@@ -1,0 +1,47 @@
+$primary-color: #000000;
+$secondary-color: #FF0000;
+
+h1 {
+    color: $secondary-color;
+    text-align: center;
+}
+
+h2 {
+    color: $secondary-color;
+    text-align: center;
+}
+
+h3 {
+    color: $secondary-color;
+    text-align: center;
+}
+
+h4 {
+    color: $secondary-color;
+}
+
+a {
+    color: $secondary-color;
+}
+
+p {
+    color: $primary-color;
+    font-size: 1.1em;
+}
+
+.body-section {
+    padding: 16px;
+}
+
+.body-content {
+    max-width: 1150px;
+    margin: auto;
+    text-align: justify;
+    padding: 20px 0px;
+}
+
+@media (min-width: 1000px) {
+    .body-section {
+        padding: 16px 30px;
+    }
+}
