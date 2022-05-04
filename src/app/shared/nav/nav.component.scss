@@ -1,0 +1,20 @@
+@import "../global-variables.scss";
+
+.navbar {
+    background-color: $primary-color;
+}
+
+.navbar-brand {
+    padding: 0px;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: $secondary-color;
+    font-weight: 500;
+}
+
+@media (max-width: 500px) {
+    .brandName {
+        font-size: 0%;
+    }
+}
