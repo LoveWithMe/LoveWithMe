@@ -2,10 +2,12 @@
   <nav class="navbar d-print fixed-top navbar-expand-lg navbar-light bg-white">
     <div class="container-fluid">
       <a [routerLink]="['']" class="navbar-brand">
-        <span class="brandName">Love With Me, LLC</span>
+        <img src="assets/img/love-with-me-logo-small.png" height="60" class="d-inline-block align-center"
+          alt="Love With Me logo">
+        <!-- <span class="brandName">Love With Me, LLC</span> -->
       </a>
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" 
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
         aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" (click)="toggleNavbar()">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -13,7 +15,8 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse" [ngClass]="{ 'show': navbarOpen }">
         <ul class="navbar-nav main-nav" id="nav-list">
           <li class="nav-item">
-            <a class="nav-link" [routerLink]="['']" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+            <a class="nav-link" [routerLink]="['']" routerLinkActive="active"
+              [routerLinkActiveOptions]="{ exact: true }">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" routerLink="/about" routerLinkActive="active">About</a>
@@ -23,6 +26,6 @@
           </li>
         </ul>
       </div>
-    </div>  
+    </div>
   </nav>
 </header>
