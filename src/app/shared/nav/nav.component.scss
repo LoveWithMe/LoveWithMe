@@ -2,6 +2,7 @@
 
 .navbar {
     background-color: $primary-color;
+    height: 64px;
 }
 
 .navbar-brand {
@@ -11,6 +12,10 @@
 .navbar-light .navbar-nav .nav-link.active {
     color: $secondary-color;
     font-weight: 500;
+}
+
+.navbar-collapse {
+    background: white;
 }
 
 @media (max-width: 500px) {
