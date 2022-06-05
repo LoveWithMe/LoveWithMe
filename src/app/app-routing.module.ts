@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './pages/about/about.component';
 import { FaqComponent } from './pages/faq/faq.component';
 import { HomeComponent } from './pages/home/home.component';
+import { MatchQuestionnaireComponent } from './pages/match-questionnaire/match-questionnaire.component';
 
 const routes: Routes = [
   {
@@ -16,6 +17,10 @@ const routes: Routes = [
   {
     path: 'faq',
     component: FaqComponent
+  },
+  {
+    path: 'match-questionnaire',
+    component: MatchQuestionnaireComponent
   },
   {
     path: '*',

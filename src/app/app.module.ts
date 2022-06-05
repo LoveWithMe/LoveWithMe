@@ -8,6 +8,7 @@ import { NavComponent } from './shared/nav/nav.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { AboutComponent } from './pages/about/about.component';
 import { FaqComponent } from './pages/faq/faq.component';
+import { MatchQuestionnaireComponent } from './pages/match-questionnaire/match-questionnaire.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FaqComponent } from './pages/faq/faq.component';
     NavComponent,
     FooterComponent,
     AboutComponent,
-    FaqComponent
+    FaqComponent,
+    MatchQuestionnaireComponent
   ],
   imports: [
     BrowserModule,
