@@ -9,6 +9,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { AboutComponent } from './pages/about/about.component';
 import { FaqComponent } from './pages/faq/faq.component';
 import { MatchQuestionnaireComponent } from './pages/match-questionnaire/match-questionnaire.component';
+import { WomenOnlyComponent } from './pages/women-only/women-only.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MatchQuestionnaireComponent } from './pages/match-questionnaire/match-q
     FooterComponent,
     AboutComponent,
     FaqComponent,
-    MatchQuestionnaireComponent
+    MatchQuestionnaireComponent,
+    WomenOnlyComponent
   ],
   imports: [
     BrowserModule,
