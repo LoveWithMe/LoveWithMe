@@ -4,6 +4,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { FaqComponent } from './pages/faq/faq.component';
 import { HomeComponent } from './pages/home/home.component';
 import { MatchQuestionnaireComponent } from './pages/match-questionnaire/match-questionnaire.component';
+import { WomenOnlyComponent } from './pages/women-only/women-only.component';
 
 const routes: Routes = [
   {
@@ -17,6 +18,10 @@ const routes: Routes = [
   {
     path: 'faq',
     component: FaqComponent
+  },
+  {
+    path: 'women-only',
+    component: WomenOnlyComponent
   },
   {
     path: 'match-questionnaire',
