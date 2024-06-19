@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "LoveWithMe:build:production"
+              "buildTarget": "LoveWithMe:build:production"
             },
             "development": {
-              "browserTarget": "LoveWithMe:build:development"
+              "buildTarget": "LoveWithMe:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "LoveWithMe:build"
+            "buildTarget": "LoveWithMe:build"
           }
         },
         "test": {
