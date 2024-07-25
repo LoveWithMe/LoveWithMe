@@ -1,25 +1,37 @@
 @import "../global-variables.scss";
 
 .navbar {
-    background-color: $primary-color;
-    height: 64px;
+  background-color: $primary-color;
+  height: 64px;
+
+  .nav-link {
+    color: #0000008c;
+  }
+
+  .nav-link:hover {
+    color: #000000b3;
+  }
+
+  .active {
+    color: white;
+  }
 }
 
 .navbar-brand {
-    padding: 0px;
+  padding: 0px;
 }
 
 .navbar-light .navbar-nav .nav-link.active {
-    color: $secondary-color;
-    font-weight: 500;
+  color: $secondary-color;
+  font-weight: 500;
 }
 
 .navbar-collapse {
-    background: white;
+  background: white;
 }
 
 @media (max-width: 500px) {
-    .brandName {
-        font-size: 0%;
-    }
+  .brandName {
+    font-size: 0%;
+  }
 }
