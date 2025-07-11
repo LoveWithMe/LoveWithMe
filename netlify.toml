@@ -1,5 +1,5 @@
 [build]
-  publish = "dist/love-with-me"
+  publish = "dist/love-with-me/browser"
   command = "ng build --configuration production"
 [[redirects]]
   from = "/*"
